@@ -20,9 +20,9 @@ pr:
       - .ado/workflows/dataManagementZoneDeployment.yml
 
 variables:
-  AZURE_RESOURCE_MANAGER_CONNECTION_NAME: "data-management-zone-service-connection" # Update to '{yourResourceManagerConnectionName}'
-  AZURE_SUBSCRIPTION_ID: "17588eb2-2943-461a-ab3f-00a3ceac3112"                     # Update to '{yourDataManagementZoneSubscriptionId}'
-  AZURE_LOCATION: "northeurope"                                                     # Update to '{yourRegionName}'
+  AZURE_RESOURCE_MANAGER_CONNECTION_NAME: "azure-service-connection-02" # Update to '{yourResourceManagerConnectionName}'
+  AZURE_SUBSCRIPTION_ID: "accd5641-b69a-44e6-8223-30c627ad022f"                     # Update to '{yourDataManagementZoneSubscriptionId}'
+  AZURE_LOCATION: "eastus2"                                                     # Update to '{yourRegionName}'
 
 stages:
   - stage: Validation
