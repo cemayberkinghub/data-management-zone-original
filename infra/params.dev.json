@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "northeurope"
+            "value": "eastus2"
         },
         "environment": {
             "value": "dev"
         },
         "prefix": {
-            "value": "dmz"
+            "value": "dmzn"
         },
         "tags": {
             "value": {}
         },
         "purviewRootCollectionAdminObjectIds": {
-            "value": []
+            "value": ["2fbc8fec-9786-41d4-a442-ca11bd1b9a66"]
         },
         "vnetAddressPrefix": {
             "value": "10.0.0.0/16"
@@ -38,7 +38,7 @@
             ]
         },
         "firewallTier": {
-            "value": "Premium"
+            "value": "Standard"
         },
         "firewallPolicyId": {
             "value": ""
